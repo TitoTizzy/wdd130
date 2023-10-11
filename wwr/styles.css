@@ -1,85 +1,139 @@
-div{
-    max-width: 1600;
+div {
+    max-width: 1600px; /* Added 'px' for units */
     margin: 0 auto;
 }
-nav a{
+
+nav a {
     text-align: center;
     color: #03045E;
     text-decoration: none;
+    padding: 35px;
 }
-nav a:hover{
+
+nav a:hover {
     color: #00B4D8;
-    background-color:#E3E2E2 ;
+    background-color: #E3E2E2;
 }
-.home-title{
+
+.home-title {
     color: white;
 }
-h4{
+
+h4 {
     color: white;
 }
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
 }
-#backgroud{
+
+#background {
     height: 725px;
+    background-color: #00B4D8; /* Moved background color here */
 }
-body{
+
+body {
     background-color: #0077B6;
 }
-header{
+
+header {
     background-color: white;
 }
-.book, .join{
+
+.book, .join {
     background-color: #03045E;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover, .join:hover{ 
- background-color: white; 
- color: #03045E;  
+
+.book:hover, .join:hover {
+    background-color: white;
+    color: #03045E;
 }
-#background {
-    background-color:#00B4D8 ;
-}
-.msg{
+
+.msg {
     background-color: #00B4D8;
 }
-.msg h2{
-    color:black
+
+.msg h2 {
+    color: black;
 }
-.msg p{
+
+.msg p {
     color: white;
 }
-footer{
+
+footer {
     background-color: white;
     color: black;
 }
-footer a{
+
+footer a {
     color: black;
     text-decoration: none;
 }
-footer a:hover{
-    color:#03045E ;
+
+footer a:hover {
+    color: #03045E;
     background-color: #00B4D8;
 }
-footer p{
+
+footer p {
     font-size: 1.2em;
 }
-footer p a:hover{
+
+footer p a:hover {
     text-decoration: underline;
 }
-.logo{
+
+.logo {
     width: 80px;
 }
-.icon{
+
+.icon {
     width: 80px;
 }
-#hero-img{
+
+#social-img{
+    width: 30px;
+}
+
+#hero-img {
     width: 100%;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg {
+    background-color: #00B4D8;
+    line-height: 1.5em;
+  }
+  body {
+    background-color: #0077B6;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.card-img {
+    border: 10px solid white;
+}
+main section img {
+    box-sizing: border-box;
 }

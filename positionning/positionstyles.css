@@ -184,7 +184,7 @@ gap: 20px;
 .content6 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100px 100px 100px 100px;
   position: relative;
   width: 600px;
 }

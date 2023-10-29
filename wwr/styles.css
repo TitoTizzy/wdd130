@@ -54,7 +54,7 @@ body {
 }
 
 header {
-    background-color: #00B4D8,0.7;
+    background-color: rgba(0, 180, 216, 0.7);
 }
 
 .book, .join {

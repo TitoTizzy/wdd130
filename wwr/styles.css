@@ -226,8 +226,9 @@ main.home-grid{
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
-        display: block;
+        display: grid;
         height: auto;
+        grid-template-columns: 1fr;
     }
     nav, footer {
         flex-direction: column;

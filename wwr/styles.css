@@ -183,7 +183,7 @@ main section img {
 main.home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr); /* Create 10 equal columns */
-    
+    width: 100%;
 }
 
 .card-img, .mountains {
@@ -192,17 +192,19 @@ main.home-grid{
 .rivers-card {
   grid-column: 2/4;
   grid-row: 2/3;
-   
+  margin: 30px auto; 
 }
 .camping-card {
     grid-column: 5/7;
     grid-row: 2/3;
+    margin: 30px auto;
+    width: 100%;
     
 }
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
-    
+    margin: 30px auto;
 }
 #background{
     grid-column: 1/11;
@@ -221,7 +223,8 @@ main.home-grid{
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
-}@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;

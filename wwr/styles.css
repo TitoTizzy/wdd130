@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #00b4d8;
-}
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
-    display: flex;
-    flex-direction: column;
+}
+
+body {
+    background-color: #00b4d8;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 nav {

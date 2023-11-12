@@ -174,7 +174,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid #03045e;
+    border: 10px solid white;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px white;
 }
@@ -241,9 +241,75 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px white;
 }
+.paragraph-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.mainfork{
+    grid-column: 1/6;
+    grid-row:1/2;
+    margin-top: 70px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+
+.mainfork-img{
+    width: 100%;
+    grid-column: 7/10;
+    grid-row: 1/2;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+.graycanyon{
+    grid-column: 1/6;
+    grid-row: 2/3;
+    margin-top: 70px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.graycanyon-img{
+    width: 100%;
+    grid-column:7/10;
+    grid-row:2/3;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+.grandcanyon{
+    grid-column: 1/6;
+    grid-row: 3/4;
+    margin-top: 70px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+.grandcanyon-img{
+    width: 100%;
+    grid-column: 7/10;
+    grid-row: 3/4;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px white;
+}
+h3 {
+    margin: 0;
+    font-family: "Croissant One";
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.paragraph-grid, p{
+    text-align: left;
+}
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .paragraph-grid {
         display: block;
         height: auto;
     }

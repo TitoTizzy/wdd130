@@ -49,7 +49,7 @@ main section {
 }
 
 header {
-    background-color: white;
+    background-color: white 10%;
     display: grid;
     grid-template-columns: 150px auto;
 }

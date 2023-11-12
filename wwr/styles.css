@@ -23,7 +23,7 @@ nav a {
     color: black;
     text-decoration: none;
     font-family: "Croissant One";
-    padding: 35px;
+    padding: 35px;   
 }
 
 #hero-img {
@@ -49,9 +49,10 @@ main section {
 }
 
 header {
-    background-color: white 10%;
+    background-color: #396E94;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 70%;
 }
 
 nav a:hover {

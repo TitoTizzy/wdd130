@@ -307,6 +307,7 @@ h3 {
 }
 .paragraph-grid, p{
     text-align: left;
+    padding-left: 20px;
 }
 
 @media screen and (max-width: 900px) {
